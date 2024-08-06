@@ -14,7 +14,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://zeta-blog.vercel.app/"],
+    origin: ["https://blog1-one-lac.vercel.app/"],
     methods: ["GET", "PUT", "DELETE", "POST"],
     credentials: true,
   })
